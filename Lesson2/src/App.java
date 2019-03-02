@@ -28,5 +28,7 @@ public class App {
         System.out.print(person1.infoAboutSpouse());
         System.out.print(person2.infoAboutSpouse());
         System.out.print(person3.infoAboutSpouse());
+
+        person.marry(null);
     }
 }

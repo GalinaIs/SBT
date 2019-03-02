@@ -34,7 +34,7 @@ public class Person {
      * @return - returns true if this person has another gender than passed person and they are not husband and wife, false otherwise
      */
     public boolean marry(Person person) {
-        if ((person.isMan() == this.man) || this.spouse == person)
+        if (person == null || person.isMan() == this.man || this.spouse == person)
             return false;
 
         person.divorce();
