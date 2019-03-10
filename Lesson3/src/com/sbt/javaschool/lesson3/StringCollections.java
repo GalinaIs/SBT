@@ -81,7 +81,7 @@ public class StringCollections {
     }
 
     public String frequencyDifferentWords() {
-        LinkedHashMap<String, Integer> dictionary = new LinkedHashMap<>();
+        HashMap<String, Integer> dictionary = new HashMap<>();
         try {
             Scanner in = new Scanner(file);
             while (in.hasNextLine()) {
