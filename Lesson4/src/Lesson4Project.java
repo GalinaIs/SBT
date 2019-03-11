@@ -49,7 +49,7 @@ public class Lesson4Project {
         System.out.println("Element of 2 index is " + myList.get(2));
         myList.remove(1);
         myList.remove("JS");
-        System.out.println(myList.remove(123.1));
+        System.out.println(myList.remove(new Employee("Anna", 50000)));
         System.out.println(myList.toString());
 
         ArrayList<String> list = new ArrayList<>();

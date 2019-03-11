@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19329284-63f9-4382-a444-383f82ee6b92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/sbt/javaschool/lesson3/StringCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sbt/javaschool/lesson3/StringCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4/out/production/Lesson4Project/com/sbt/javaschool/lesson4/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/out/production/Lesson4Project/com/sbt/javaschool/lesson4/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4/src/com/sbt/javaschool/lesson4/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4/src/com/sbt/javaschool/lesson4/MyLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/sbt/javaschool/lesson3/StringCollections.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="85" column="43" lean-forward="true" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+              <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
@@ -141,9 +143,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25224775" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25474524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -210,7 +211,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/sbt/javaschool/lesson3/StringCollections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="85" column="43" lean-forward="true" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+          <caret line="85" column="43" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />

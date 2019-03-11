@@ -24,6 +24,7 @@ public class MyLinkedList<E> extends AbstractList<E> implements List<E> {
 
     @Override
     public boolean contains(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
         return findElement((E) o) != null;
     }
 
@@ -56,6 +57,7 @@ public class MyLinkedList<E> extends AbstractList<E> implements List<E> {
 
     @Override
     public boolean remove(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
         E element = (E) o;
         Entry<E> entry = findElement(element);
         if (entry == null) return false;
@@ -162,8 +164,12 @@ public class MyLinkedList<E> extends AbstractList<E> implements List<E> {
         if (index < 0 || index >= size) return null;
 
         Entry<E> e = header;
-        for (int i = 0; i <= index; i++)
-            e = e.next;
+        if (index < (size / 2))
+            for (int i = 0; i <= index; i++)
+                e = e.next;
+        else
+            for (int i = size; i > index; i--)
+                e = e.prev;
 
         return e;
     }
