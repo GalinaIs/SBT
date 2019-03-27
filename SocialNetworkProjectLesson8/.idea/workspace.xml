@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dbfe802-77a7-4057-ab4e-76243a476914" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lesson8Project/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/src/test/java/ru/sbt/Lesson8/socialNetwork/profile/ActionUserProfileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson7/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7dbfe802-77a7-4057-ab4e-76243a476914" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/view/target/" />
@@ -90,10 +85,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/messanger/src/main/java/ru/sbt/Lesson8/socialNetwork/messanger/ChatUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="459">
+              <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
               <folding>
-                <element signature="e#851#852#0" expanded="true" />
                 <element signature="e#899#900#0" expanded="true" />
                 <element signature="e#1103#1104#0" expanded="true" />
                 <element signature="e#1152#1153#0" expanded="true" />
@@ -261,75 +255,6 @@
             <path>
               <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
               <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SocialNetworkProjectLesson8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialNetworkProjectLesson8" type="462c0819:PsiDirectoryNode" />
               <item name="messanger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,7 +333,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553504809344" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553513546794" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -583,7 +508,7 @@
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25724277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25724277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -592,7 +517,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32955715" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32955715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -924,10 +849,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/messanger/src/main/java/ru/sbt/Lesson8/socialNetwork/messanger/ChatUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="459">
+          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
           <folding>
-            <element signature="e#851#852#0" expanded="true" />
             <element signature="e#899#900#0" expanded="true" />
             <element signature="e#1103#1104#0" expanded="true" />
             <element signature="e#1152#1153#0" expanded="true" />
