@@ -1,6 +1,8 @@
 import com.sbt.javaschool.lesson6.*;
 import com.sbt.javaschool.lesson6.classTest.*;
 import java.lang.reflect.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
 
@@ -8,6 +10,8 @@ public class Main {
         //testReflection();
         testProxy();
         //testBeanUtils();
+        String s = "" + false;
+        System.out.println(s);
     }
 
     private static void testReflection() {

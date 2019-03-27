@@ -13,13 +13,23 @@ public class MemoryCacheUtils implements CacheUtils {
         this.listSize = listSize;
     }
 
+    private Object readCache(byte[] arrayByte) throws IOException, ClassNotFoundException {
+        try (ByteArrayInputStream bain = new ByteArrayInputStream(arrayByte);
+             ObjectInputStream oin = new ObjectInputStream(bain)) {
+            return oin.readObject();
+        } catch (IOException ex) {
+            throw new IOException("Exception readCache from memory", ex);
+        } catch (ClassNotFoundException ex) {
+            throw new ClassNotFoundException("Exception readCache from memory", ex);
+        }
+    }
+
     @Override
     public Object checkCache() {
         byte[] arrayByte = cacheMemory.get(identityName);
         if (arrayByte != null) {
-            try (ByteArrayInputStream bain = new ByteArrayInputStream(arrayByte);
-                 ObjectInputStream oin = new ObjectInputStream(bain)) {
-                return oin.readObject();
+            try {
+                return readCache(arrayByte);
             } catch (IOException | ClassNotFoundException ex) {
                 ex.printStackTrace();
             }
@@ -41,19 +51,28 @@ public class MemoryCacheUtils implements CacheUtils {
         return result;
     }
 
-    @Override
-    public void putInCache(Object result) throws NotSerializableException {
-        result = cutList(result);
-
+    private void writeCache(Object result) throws IOException {
         try (ByteArrayOutputStream baos = new ByteArrayOutputStream();
              ObjectOutputStream oos = new ObjectOutputStream(baos)) {
             oos.writeObject(result);
             cacheMemory.put(identityName, baos.toByteArray());
         } catch (NotSerializableException ex) {
             throw new NotSerializableException("Return type of the method must be serializable");
+        } catch (IOException ex) {
+            throw new IOException("Exception writeCache from memory", ex);
         }
-        catch (IOException ex) {
+    }
+
+
+    @Override
+    public void putInCache(Object result) {
+        result = cutList(result);
+
+        try {
+            writeCache(result);
+        } catch (IOException ex) {
             ex.printStackTrace();
         }
+
     }
 }

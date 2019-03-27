@@ -60,7 +60,7 @@ public class CacheProxyInvocation implements InvocationHandler {
     }
 
     public Object invoke(Object proxy, Method method, Object[] args)
-            throws IllegalAccessException, InvocationTargetException, NotSerializableException {
+            throws IllegalAccessException, InvocationTargetException {
         System.out.println("\nStarted " + method.getName());
         if (!method.isAnnotationPresent(Cache.class)) {
             Object result = method.invoke(obj, args);

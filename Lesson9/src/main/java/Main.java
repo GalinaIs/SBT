@@ -15,13 +15,13 @@ public class Main {
 
         /*System.out.println("result " + service.doHardWork("work1", 10, new Date()));
         System.out.println("result " + service.doHardWork("work1", 5, new Date()));
-        System.out.println("result " + service.doHardWork("work1", 10, new Date()));
+        System.out.println("result " + service.doHardWork("work1", 10, new Date()));*/
 
         System.out.println("result " + service.doHardWork("Hello"));
         System.out.println("result " + service.doHardWork("Hello"));
         System.out.println("result " + service.doHardWork("Hello"));
-        System.out.println("result " + service.doHardWork("Hello"));*/
+        System.out.println("result " + service.doHardWork("Hello"));
 
-        System.out.println("result " + service.getPeople());
+        //System.out.println("result " + service.getPeople());
     }
 }
