@@ -1,0 +1,260 @@
+Date change: Mon Apr 08 14:38:19 MSK 2019
+File change: 1
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:38:19 MSK 2019
+File change: 1.pub
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:38:19 MSK 2019
+File change: 1.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:38:22 MSK 2019
+File change: Новая папка
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:38:23 MSK 2019
+File change: Новая папка
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:38:23 MSK 2019
+File change: 1
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:38:26 MSK 2019
+File change: Контакт.contact
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:38:26 MSK 2019
+File change: Контакт.contact
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:46:34 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:46:34 MSK 2019
+File change: changeDirectory.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:48:22 MSK 2019
+File change: Exx1.iml
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:48:22 MSK 2019
+File change: Exx1.iml
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:49:39 MSK 2019
+File change: pom.xml
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:49:39 MSK 2019
+File change: pom.xml
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:50:22 MSK 2019
+File change: Lesson20.iml
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:50:22 MSK 2019
+File change: Lesson20.iml
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:50:22 MSK 2019
+File change: Lesson20.iml
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:50:59 MSK 2019
+File change: config.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:50:59 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:50:59 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:50:59 MSK 2019
+File change: config.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:50:59 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:53:23 MSK 2019
+File change: 1
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:53:23 MSK 2019
+File change: changeDirectory.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:53:23 MSK 2019
+File change: Exx1.iml
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:53:23 MSK 2019
+File change: pom.xml
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:54:11 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:54:11 MSK 2019
+File change: changeDirectory.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:54:11 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:54:11 MSK 2019
+File change: changeDirectory.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:54:12 MSK 2019
+File change: changeDirectory.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:54:12 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:54:12 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:54:12 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:54:12 MSK 2019
+File change: changeDirectory.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:56:06 MSK 2019
+File change: config.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:56:06 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:56:06 MSK 2019
+File change: config.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:56:06 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:56:07 MSK 2019
+File change: config.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:56:07 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:56:07 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:56:07 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:56:07 MSK 2019
+File change: config.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:57:39 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:57:39 MSK 2019
+File change: changeDirectory.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:57:39 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:57:39 MSK 2019
+File change: changeDirectory.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:57:40 MSK 2019
+File change: changeDirectory.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:57:40 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:57:40 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:57:40 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:57:40 MSK 2019
+File change: changeDirectory.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:58:20 MSK 2019
+File change: config.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:58:20 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:59:47 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:59:47 MSK 2019
+File change: changeDirectory.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:05:10 MSK 2019
+File change: Exx1.iml
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:05:10 MSK 2019
+File change: Exx1.iml
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:10:58 MSK 2019
+File change: changeDirectory.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:10:58 MSK 2019
+File change: config.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:10:58 MSK 2019
+File change: Exx1.iml
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:11:07 MSK 2019
+File change: config.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:11:07 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:11:07 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------

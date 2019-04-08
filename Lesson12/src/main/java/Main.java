@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     public static void main(String... args) {
         //testFixedThreadPool();
-        testScalableThreadPool();
+        //testScalableThreadPool();
     }
 
     private static void testScalableThreadPool() {
