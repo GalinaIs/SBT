@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be41735e-2f4c-4ee8-aef5-2461452fc5ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,10 +48,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="414" column="30" lean-forward="true" selection-start-line="414" selection-start-column="16" selection-end-line="414" selection-end-column="30" />
+              <folding>
+                <element signature="e#26957#26958#0" expanded="true" />
+                <element signature="e#27022#27023#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/lesson12/FixedThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="38" selection-start-line="38" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="561">
+              <caret line="34" column="9" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sbt/lesson12/account/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sbt/lesson12/TaskTread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sbt/lesson12/TaskThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sbt/lesson12/FixedThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sbt/lesson12/ScalableThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sbt/lesson12/FixedThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
@@ -123,8 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,12 +181,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/java/golovach/Exx1" />
+    <property name="last_opened_file_path" value="D:/java/golovach/Lesson13Project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -229,7 +241,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17682318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18081918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,10 +392,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/lesson12/FixedThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="38" selection-start-line="38" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="561">
+          <caret line="34" column="9" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="414" column="30" lean-forward="true" selection-start-line="414" selection-start-column="16" selection-end-line="414" selection-end-column="30" />
+          <folding>
+            <element signature="e#26957#26958#0" expanded="true" />
+            <element signature="e#27022#27023#0" expanded="true" />
           </folding>
         </state>
       </provider>
