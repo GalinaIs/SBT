@@ -3,9 +3,11 @@ import com.sbt.lesson16.Outer;
 import java.util.*;
 
 public class Main {
+
     public static void main(String[] args) {
         //testEx1();
         testEx2();
+
     }
 
     private static void testEx2() {
