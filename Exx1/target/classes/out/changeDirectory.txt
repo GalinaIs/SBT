@@ -218,3 +218,167 @@ Date change: Mon Apr 08 14:58:20 MSK 2019
 File change: config.txt
 Type change: MODIFY
 -----------------------------------------------------------------
+Date change: Mon Apr 08 14:59:47 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 14:59:47 MSK 2019
+File change: changeDirectory.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:05:10 MSK 2019
+File change: Exx1.iml
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:05:10 MSK 2019
+File change: Exx1.iml
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:10:58 MSK 2019
+File change: changeDirectory.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:10:58 MSK 2019
+File change: config.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:10:58 MSK 2019
+File change: Exx1.iml
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:11:07 MSK 2019
+File change: config.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:11:07 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 08 15:11:07 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Sat Apr 27 19:28:49 MSK 2019
+File change: Новая папка
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 19:28:50 MSK 2019
+File change: Новая папка
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 19:28:50 MSK 2019
+File change: 2
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 19:28:59 MSK 2019
+File change: 2
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 19:29:25 MSK 2019
+File change: Контакт.contact
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 19:29:25 MSK 2019
+File change: Контакт.contact
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:16:15 MSK 2019
+File change: changeDirectory.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:16:15 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:17:28 MSK 2019
+File change: Новая папка
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:17:43 MSK 2019
+File change: Презентация Microsoft PowerPoint.pptx
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:17:45 MSK 2019
+File change: 1.pptx
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:17:45 MSK 2019
+File change: 1.pptx
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:19:16 MSK 2019
+File change: Документ Microsoft Word.docx
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:19:21 MSK 2019
+File change: 5.docx
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:19:21 MSK 2019
+File change: 5.docx
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:20:09 MSK 2019
+File change: 5
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:36:59 MSK 2019
+File change: 5
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:36:59 MSK 2019
+File change: 5.docx
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:36:59 MSK 2019
+File change: changeDirectory.txt
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:36:59 MSK 2019
+File change: Документ Microsoft Word.docx
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:36:59 MSK 2019
+File change: Новая папка
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:36:59 MSK 2019
+File change: Презентация Microsoft PowerPoint.pptx
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:36:59 MSK 2019
+File change: 1
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Sat Apr 27 22:37:00 MSK 2019
+File change: 1.pptx
+Type change: DELETE
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:18:44 MSK 2019
+File change: 5
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:18:44 MSK 2019
+File change: Новая папка
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:18:51 MSK 2019
+File change: 1
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:18:57 MSK 2019
+File change: 1
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:18:57 MSK 2019
+File change: 5
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:21:45 MSK 2019
+File change: 1
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:22:01 MSK 2019
+File change: Новая папка
+Type change: DELETE
+-----------------------------------------------------------------

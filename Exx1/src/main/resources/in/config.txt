@@ -1,3 +1,0 @@
-FileHistory D:\java\golovach\Exx1\src\main\resources\changeDirectory.txt
-DirectoryOut D:\java\golovach\Exx1\src\main\resources\out
-DirectoryIn D:\java\golovach\Exx1\src\main\resources\in
