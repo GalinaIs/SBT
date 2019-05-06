@@ -1,0 +1,11 @@
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\model\UserInfo.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\mapper\UserInfoMapper.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\dao\impl\UserInfoDAOImpl.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\config\ApplicationContextConfig.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\authentification\MyDBAuthenticationService.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\config\WebMvcConfig.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\config\SpringSecurityInitializer.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\config\SpringWebAppInitializer.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\dao\UserInfoDAO.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\controller\MainController.java
+D:\JavaSBTGit\SBT\Exx2\src\main\java\com\sbt\config\WebSecurityConfig.java

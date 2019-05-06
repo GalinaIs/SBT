@@ -382,3 +382,23 @@ Date change: Mon Apr 29 13:22:01 MSK 2019
 File change: Новая папка
 Type change: DELETE
 -----------------------------------------------------------------
+Date change: Mon Apr 29 13:22:37 MSK 2019
+File change: changeDirectory.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:22:37 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:22:37 MSK 2019
+File change: changeDirectory.txt
+Type change: MODIFY
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:23:51 MSK 2019
+File change: config.txt
+Type change: CREATE
+-----------------------------------------------------------------
+Date change: Mon Apr 29 13:23:51 MSK 2019
+File change: config.txt
+Type change: MODIFY
+-----------------------------------------------------------------

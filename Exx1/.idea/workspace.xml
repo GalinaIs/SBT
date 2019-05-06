@@ -2,39 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e8ea5d0-4a00-4d1c-a4ba-2fa97551458d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/config/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exx1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/ClearHistoryRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/history/ClearHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/ReaderFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/file/ReaderFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/SendFileRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/file/CopierFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/UpdateConfigRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/config/UpdateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/UpdateHistoryRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/history/UpdateHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/WatchOutDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/watcher/WatchOutDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/WatcherInDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/watcher/WatcherInDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/changeDirectory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/changeDirectory.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/in/config.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/out/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/out/config.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/changeDirectory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/changeDirectory.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/ex1/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/App$AppFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/App$AppFrame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/App$AppFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/App$AppFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/ClearHistoryRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/ReaderFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/SendFileRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/UpdateConfigRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/UpdateHistoryRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/WatchOutDirectory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/ex1/bean/WatcherInDirectory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/out/changeDirectory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/out/changeDirectory.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/out/config.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson14/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,19 +41,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="1005" column="19" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
-              <folding>
-                <element signature="e#23018#23019#0" expanded="true" />
-                <element signature="e#23057#23058#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="465">
+              <caret line="124" column="52" selection-start-line="124" selection-start-column="52" selection-end-line="124" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/config/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="833">
               <caret line="49" column="70" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -184,6 +142,7 @@
       <find>watcherInDirectory</find>
       <find>UpdateH</find>
       <find>readFile</find>
+      <find>Send</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,7 +198,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="620" />
     <option name="y" value="145" />
     <option name="width" value="1750" />
@@ -396,7 +355,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27422577" />
@@ -408,7 +367,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32955715" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32955715" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32955715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -655,20 +614,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/config/Config.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/watcher/WatcherInDirectory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="49" column="70" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="70" />
+        <state relative-caret-position="748">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/watcher/WatcherInDirectory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/file/CopierFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="58" column="67" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="124" column="52" selection-start-line="124" selection-start-column="52" selection-end-line="124" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -698,22 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/file/CopierFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="58" column="67" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sbt/ex1/bean/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="833">
+          <caret line="49" column="70" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
