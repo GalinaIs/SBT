@@ -1,10 +1,6 @@
-com\sbt\model\StateReserve.class
-com\sbt\ServletInitializer.class
 com\sbt\model\ReserveInfo.class
 com\sbt\model\Role.class
-com\sbt\service\ReserveInfoDay.class
 com\sbt\controller\RegistrationController.class
-com\sbt\service\ResultReserve.class
 com\sbt\controller\ReserveController.class
 com\sbt\model\entity\Reserve.class
 com\sbt\repository\UserRepository.class
@@ -14,5 +10,3 @@ com\sbt\Application.class
 com\sbt\repository\ReserveRepository.class
 com\sbt\config\MvcConfig.class
 com\sbt\model\entity\User.class
-com\sbt\service\ReserveUtils.class
-com\sbt\service\UserSecurity.class

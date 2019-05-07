@@ -1,13 +1,12 @@
 package com.sbt.controller;
 
-import com.sbt.service.ReserveInfoDay;
 import com.sbt.model.ReserveInfo;
-import com.sbt.service.UserSecurity;
 import com.sbt.model.entity.User;
-import com.sbt.repository.ReserveRepository;
-import com.sbt.repository.UserRepository;
+import com.sbt.service.reserve.ReserveDayInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -23,38 +22,32 @@ import java.util.Map;
 @Controller
 public class MainController {
     @Autowired
-    private UserRepository userRepository;
-    @Autowired
-    private ReserveRepository reserveRepository;
+    private ReserveDayInfoService reserveDayInfo;
 
     @GetMapping("/")
-    public String homePage(Map<String, Object> model) {
-        User user = UserSecurity.getCurrentAuthUser(userRepository);
-        model.put("user", user);
+    public String homePage(@AuthenticationPrincipal User userAuth, Model model) {
+        System.out.println(userAuth);
+        model.addAttribute("userAuth", userAuth);
         return "home";
     }
 
     @GetMapping("/main")
-    public String main(Map<String, Object> model) {
+    public String main(@AuthenticationPrincipal User userAuth, Model model) {
         LocalDateTime date = LocalDateTime.of(LocalDate.now(), LocalTime.of(0, 0));
-        getReserveDateInfo(date, model, true);
+        List<ReserveInfo> reserveDate = reserveDayInfo.getReserveInfoDate(date, userAuth);
+        model.addAttribute("reserveDate", reserveDate);
+        model.addAttribute("userAuth", userAuth);
         return "main";
-    }
-
-    private void getReserveDateInfo(LocalDateTime date, Map<String, Object> model, boolean necessaryUser) {
-        User user = UserSecurity.getCurrentAuthUser(userRepository);
-        List<ReserveInfo> reserveDate = ReserveInfoDay.getReserveDate(reserveRepository, date, user);
-        model.put("reserveDate", reserveDate);
-        if (necessaryUser)
-            model.put("user", user);
     }
 
     @RequestMapping("/main/ajax")
     public @ResponseBody
-    Map<String, Object> mainAjax(@RequestParam Integer day, @RequestParam Integer month, @RequestParam Integer year) {
+    Map<String, Object> mainAjax(@AuthenticationPrincipal User userAuth,
+                                 @RequestParam Integer day, @RequestParam Integer month, @RequestParam Integer year) {
         LocalDateTime date = LocalDateTime.of(year, month + 1, day, 0, 0);
+        List<ReserveInfo> reserveDate = reserveDayInfo.getReserveInfoDate(date, userAuth);
         Map<String, Object> model = new HashMap<>();
-        getReserveDateInfo(date, model, false);
+        model.put("reserveDate", reserveDate);
         return model;
     }
 }

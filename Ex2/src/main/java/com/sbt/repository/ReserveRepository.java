@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import java.sql.Timestamp;
 import java.util.List;
 
-public interface ReserveRepository extends CrudRepository<Reserve, Integer> {
+public interface ReserveRepository extends CrudRepository<Reserve, Long> {
     List<Reserve> findByDateStartLessThanEqualAndDateEndGreaterThan(Timestamp dateFrom, Timestamp dateTo);
 
     List<Reserve> findByDateStartLessThanAndDateEndGreaterThanEqual(Timestamp dateFrom, Timestamp dateTo);

@@ -20,7 +20,7 @@ function sendReserveServer (dateValue, timeFrom, duration) {
     var self = this;
 
     $.ajax({
-        url: 'http://localhost:8080/reserve?dateValue=' + dateValue + "&timeFrom=" + timeFrom + "&duration=" + duration,
+        url: '/reserve?dateValue=' + dateValue + "&timeFrom=" + timeFrom + "&duration=" + duration,
         dataType: 'json',
         context: this,
         success: function (data) {

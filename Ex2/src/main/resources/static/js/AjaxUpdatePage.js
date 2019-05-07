@@ -23,10 +23,10 @@ class AjaxUpdatePage {
                   }
 
                   $tableInfoTd.eq(i * countTdInTr + 3).html("");
-                  if (data.reserveDate[i].state.allowedReserve) {
+                  if (data.reserveDate[i].action.allowedReserve) {
                       $tableInfoTd.eq(i * countTdInTr + 3).append('<div class="action"><a href="#" class="reserve">Занять</a></div>');
                   }
-                  if (data.reserveDate[i].state.cancelReserve) {
+                  if (data.reserveDate[i].action.cancelReserve) {
                       $tableInfoTd.eq(i * countTdInTr + 3).append('<div class="action"><a href="#" class="cancel_button">Отменить</a></div>');
                   }
               }

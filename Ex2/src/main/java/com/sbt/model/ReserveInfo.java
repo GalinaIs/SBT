@@ -10,7 +10,7 @@ public class ReserveInfo {
     private String timeTo;
     private User user;
 
-    private StateReserve state = new StateReserve();
+    private ActionReserve action = new ActionReserve();
 
     public ReserveInfo(LocalDate date, String timeFrom, String timeTo, User user) {
         this.date = date;
@@ -55,11 +55,11 @@ public class ReserveInfo {
         this.user = user;
     }
 
-    public StateReserve getState() {
-        return state;
+    public ActionReserve getAction() {
+        return action;
     }
 
-    public void setState(StateReserve state) {
-        this.state = state;
+    public void setAction(ActionReserve action) {
+        this.action = action;
     }
 }

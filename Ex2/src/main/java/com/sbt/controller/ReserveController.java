@@ -1,10 +1,10 @@
 package com.sbt.controller;
 
-import com.sbt.repository.ReserveRepository;
-import com.sbt.repository.UserRepository;
-import com.sbt.service.ResultReserve;
-import com.sbt.service.ReserveUtils;
+import com.sbt.model.entity.User;
+import com.sbt.service.reserve.ReserveService;
+import com.sbt.service.reserve.ResultReserve;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -16,17 +16,14 @@ import java.util.Map;
 @Controller
 public class ReserveController {
     @Autowired
-    private UserRepository userRepository;
-    @Autowired
-    private ReserveRepository reserveRepository;
+    private ReserveService reserveService;
 
     @RequestMapping("/reserve")
     public @ResponseBody
-    Map<String, Object> reserveAjax(@RequestParam String dateValue, @RequestParam String timeFrom,
-                                 @RequestParam Integer duration) {
+    Map<String, Object> reserveAjax(@AuthenticationPrincipal User userAuth, @RequestParam String dateValue,
+                                    @RequestParam String timeFrom, @RequestParam Integer duration) {
         Map<String, Object> model = new HashMap<>();
-        ResultReserve answer = ReserveUtils.getResultReserve(dateValue, timeFrom, duration, reserveRepository,
-                    userRepository);
+        ResultReserve answer = reserveService.getResultReserve(dateValue, timeFrom, duration, userAuth);
         model.put("answer", answer);
 
         return model;
@@ -34,9 +31,10 @@ public class ReserveController {
 
     @RequestMapping("/cancelReserve")
     public @ResponseBody
-    Map<String, Object> cancelAjax(@RequestParam String dateValue, @RequestParam String timeFrom) {
+    Map<String, Object> cancelAjax(@AuthenticationPrincipal User userAuth, @RequestParam String dateValue,
+                                   @RequestParam String timeFrom) {
         Map<String, Object> model = new HashMap<>();
-        ResultReserve answer = ReserveUtils.getResultCancel(dateValue, timeFrom, reserveRepository, userRepository);
+        ResultReserve answer = reserveService.getResultCancelReserve(dateValue, timeFrom, userAuth);
         model.put("answer", answer);
 
         return model;
