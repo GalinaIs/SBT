@@ -1,5 +1,5 @@
 # project files
-/.idea
+.idea/
 
-# composer vendor dir
-/target
+# target dir
+target/
