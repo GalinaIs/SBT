@@ -19,7 +19,7 @@ abstract class AbstractDao<T> {
     T selectById(long id, String sql, RowMapper<T> rowMapper) {
         List<T> result = jdbc.query(sql, new MapSqlParameterSource("id", id), rowMapper);
 
-        if (result.size() == 0) return null;
+        if (result.isEmpty()) return null;
         return result.get(0);
     }
 
@@ -40,7 +40,7 @@ abstract class AbstractDao<T> {
     }
 
     private void checkUnique(T entity, String sqlCheckUnique, RowMapper<T> rowMapper) throws NoUniqueEntityException {
-        if (jdbc.query(sqlCheckUnique, new BeanPropertySqlParameterSource(entity), rowMapper).size() > 0)
+        if (!jdbc.query(sqlCheckUnique, new BeanPropertySqlParameterSource(entity), rowMapper).isEmpty())
             throw new NoUniqueEntityException("Entity " + entity + " already exists in DB");
     }
 
@@ -50,7 +50,7 @@ abstract class AbstractDao<T> {
 
     T findByName(String name, String sql, RowMapper<T> rowMapper) {
         List<T> ingredientList = jdbc.query(sql, new MapSqlParameterSource("name", name), rowMapper);
-        if (ingredientList.size() == 0) return null;
+        if (ingredientList.isEmpty()) return null;
         return ingredientList.get(0);
     }
 }

@@ -1,7 +1,5 @@
 package com.sbt.config;
 
-import com.sbt.dao.enrich.RecipeEnricher;
-import com.sbt.dao.enrich.RecipeEnricherImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

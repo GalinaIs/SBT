@@ -4,7 +4,6 @@ import com.sbt.config.Config;
 import com.sbt.entity.CountUnit;
 import com.sbt.entity.Ingredient;
 import com.sbt.entity.Recipe;
-import com.sbt.exception.DaoException;
 import com.sbt.exception.NoUniqueEntityException;
 import com.sbt.service.RecipeService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -14,26 +13,26 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    private final static String helloMessageForUser = "Добро пожаловать в приложение по работе с рецептами";
-    private final static String messageForUser = "Для работы с приложением выберите одну из следующих команд:\n" +
+    private static final String HELLO_MESSAGE_FOR_USER = "Добро пожаловать в приложение по работе с рецептами";
+    private static final String MESSAGE_FOR_USER = "Для работы с приложением выберите одну из следующих команд:\n" +
             "'find' - поиск рецепта\n" +
             "'add' - добавить новый рецепт\n" +
             "'delete' - удалить существующий рецепт\n" +
             "'quit' - выход";
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) throws DaoException {
+    public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
         RecipeService recipeService = context.getBean(RecipeService.class);
         consoleApplication(recipeService);
     }
 
     private static void consoleApplication(RecipeService recipeService) {
-        System.out.println(helloMessageForUser);
+        System.out.println(HELLO_MESSAGE_FOR_USER);
 
-        loop:
-        while (true) {
-            System.out.println(messageForUser);
+        boolean contin = true;
+        while (contin) {
+            System.out.println(MESSAGE_FOR_USER);
             String answerUser = scanner.nextLine().toLowerCase();
             switch (answerUser) {
                 case "find":
@@ -47,7 +46,8 @@ public class Main {
                     break;
                 case "quit":
                     System.out.println("Вы вышли из программы");
-                    break loop;
+                    contin = false;
+                    break;
                 default:
                     System.out.println("Вы ввели неизвестную команду");
             }
@@ -69,15 +69,12 @@ public class Main {
     private static Recipe giveFromUserRecipe() {
         System.out.println("Введите название рецепта");
         String nameRecipe = scanner.nextLine();
-        boolean contin = true;
         List<Ingredient> ingredientList = new ArrayList<>();
-        while(contin) {
+        while(true) {
             System.out.println("Введите название ингредиента или 'q' для прекращения ввода ингредиентов");
             String nameIng = scanner.nextLine();
-            if (nameIng.toLowerCase().equals("q")) {
-                contin = false;
-                break;
-            }
+            if (nameIng.equalsIgnoreCase("q"))  break;
+
             System.out.println("Введите количество ингредиента");
             long count;
             try {

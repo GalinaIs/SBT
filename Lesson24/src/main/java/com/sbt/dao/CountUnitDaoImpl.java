@@ -15,7 +15,7 @@ public class CountUnitDaoImpl extends AbstractDao<CountUnit> implements CountUni
     private static final String SELECT_ALL = "select id, name from countUnit";
     private static final String DELETE_BY_ID = "delete from countUnit where id = :id";
     private static final String INSERT = "INSERT INTO countUnit (name) VALUES (:name)";
-    private static final String UPDATE = "UPDATE countUnit SET name = :name WHERE id = :id";;
+    private static final String UPDATE = "UPDATE countUnit SET name = :name WHERE id = :id";
     private static final String SELECT_BY_NAME = "select id, name from countUnit where name = :name";
 
     private final RowMapper<CountUnit> rowMapper = (resultSet, i) ->
