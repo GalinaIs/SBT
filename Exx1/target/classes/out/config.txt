@@ -1,3 +1,0 @@
-FileHistory D:\JavaSBTGit\SBT\Exx1\src\main\resources\changeDirectory.txt
-DirectoryOut D:\JavaSBTGit\SBT\Exx1\src\main\resources\out
-DirectoryIn D:\JavaSBTGit\SBT\Exx1\src\main\resources\in
